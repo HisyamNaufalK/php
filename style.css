@@ -1,0 +1,22 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Ikon love yang belum di-like */
+.like-btn i {
+  color: #000;
+}
+
+/* Ikon love yang sudah di-like */
+.like-btn.active i {
+  color: #ff0000;
+}
